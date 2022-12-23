@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+:root{
+    --black-color: #1a1a1b;
+    --bold-lead-color: #7a7a7a;
+    --light-lead-color: #f3f3f3;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+input{
+    outline: none;
+}
+
+::selection{
+    background-color: var(--black-color);
+    color: whitesmoke;
+  }
+
+/*start header*/
+
+li a {
+    display: inline !important;
+    color: white !important;
+}
+
+
+.navbar-nav  .chat{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 150px;
+}
+
+.navbar-nav  .chat .chatlink{
+    color: #000000 !important;
+}
+
+
+.nav-item svg{
+    color: var(--bold-lead-color);
+    padding: 0 4px !important;
+}
+
+.nav-limkss{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width:912px) {
+    .nav-limkss{
+        display: block;
+        padding: 15px;
+    }
+}
+
+.navbar .navbar-toggler:focus{
+    box-shadow: none;
+}
+
+.img-nav{
+    width: 220px;
+}
+
+@media (max-width:912px) {
+    .img-nav{
+        width: 180px;
+    }
+}
+
+/*End header*/
+/* Start landing */
+
+.landing{
+background-color: #ffffff;
+}
+
+.row{
+direction: rtl;
+
+}
+
+.row .myimg{
+ text-align: center;
+
+}
+
+
+
+.row .text{
+    direction: ltr;
+}
+
+
+
+.row .text h6{
+    word-spacing: 2px;
+    letter-spacing: 5px;
+}
+
+.row .text p{
+    font-size: 13.5px;
+    word-spacing: 1.5px;
+    letter-spacing: 0.5px;
+    line-height: 1.5rem;
+}
+
+.my-part-catogaty p{
+    display: inline;
+}
+
+.link a{
+    color: #7a7a7a;
+    text-decoration: underline;
+}
+
+.link a:hover{
+    color: #000000;
+}
+
+.mylinks a{
+    font-size: 19px;
+    color: rgb(0, 0, 0);
+}
+/* End landing */
+
+
+/* Start Services */
+
+.Services-part{
+    background-color: var(--black-color)  !important;
+    color: #f3f3f3 !important;
+}
+
+
+
+.main-title h6{
+    letter-spacing: 5px;
+}
+
+.row2 {
+    direction: ltr;
+}
+
+.feat p{
+    color: #ffffff !important;
+}
+
+.link2 a{
+    text-decoration: underline;
+    color: var(--bold-lead-color);
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.link2 a:hover{
+    color: White;
+}
+
+/* End Services */
+/* Start project */
+.projects{
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+}
+
+.row3{
+    direction: ltr;
+}
+
+
+.link5 a{
+    text-decoration: underline;
+  color: var(--bold-lead-color) ;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+
+.link5 a:hover{
+  color: var(----black-color);
+}
+
+/* End project */
+/* Start Footer */
+.footer{
+    background-color:var(--black-color);
+    color: white;
+    overflow: hidden;
+}
+
+.foot-description p{
+    letter-spacing: 1px;
+}
+
+.copyright{
+    color: white;
+    background-color: #000000;
+    text-align: center;
+}
+
+.mylinkss a{
+    font-size: 19px;
+    color: white;
+}
+/* End footer */
